@@ -112,3 +112,10 @@ Index | Define              | Driver   | Device   | Address(es) | Description
   74  | USE_DISPLAY_TM1650  | xdsp_20  | TM1650   | 0x24 - 0x27, 0x34 - 0x37 | Four-digit seven-segment LED controller
   75  | USE_PCA9632         | xdrv_64  | PCA9632  | 0x60        | 4-channel 4-bit pwm driver
   76  | USE_SEN5X           | xsns_103 | SEN5X    | 0x69        | Gas (VOC/NOx index) and air quality (PPM <1,<2.5,<4,<10)
+  77  | USE_MCP23XXX_DRV    | xdrv_67  | MCP23x17 | 0x20 - 0x26 | 16-bit I/O expander as virtual button/switch/relay
+  78  | USE_PMSA003I        | xsns_104 | PMSA003I | 0x12        | PM2.5 Air Quality Sensor with I2C Interface
+  79  | USE_GDK101          | xsns_106 | GDK101   | 0x18 - 0x1B | Gamma Radiation Sensor
+  80  | USE_TC74            | xsns_108 | TC74     | 0x48 - 0x4F | Temperature sensor
+  81  | USE_PCA9557         | xdrv_69  | PCA95xx  | 0x18 - 0x1F | 8-bit I/O expander as virtual button/switch/relay
+  82  | USE_SGP4X           | xsns_109 | SGP4X    | 0x59        | Gas (TVOC/NOx index)
+  83  | USE_MAX17043        | xsns_110 | MAX17043 | 0x36        | Fuel-gauge for 3.7 Volt Lipo battery
