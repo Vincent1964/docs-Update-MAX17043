@@ -63,6 +63,7 @@ HLK-LD2410 | 24GHz mmWave Presence Sensor| serial
 **K30, K70, S8** | SenseAir CO~2~ Sensors | serial | 
 [**LM75AD**](LM75AD) |  Temperature Sensor | I^2^C
 [**LMT01**](LMT01) | Temperature Sensor | gpio
+[**MAX17043**](MAX17043) | Fuel-gauge for 3.7 Volt Lipo battery | I^2^C
 **MAX31855**<br>**MAX6675** | Thermocouple Sensor | SPI
 **MAX31865** | RTD Temperature Sensor Amplifier | SPI
 **MAX44009** | Ambient Light Sensor | I^2^C
